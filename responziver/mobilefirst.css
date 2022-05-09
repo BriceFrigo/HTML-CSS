@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Sirin+Stencil&display=swap");
+/* ici, notre design principal correspond a la présentation qu'on souhaite avoir sur mobiles */
+/* @media {max-width: 775px} */
+
+body{
+    color: white;
+}
+
+#vert, #yellow, #pp, #orange{
+    display: block;
+    background-color: green;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    margin-left: 25%;
+    font-size: 80px;
+    
+}
+
+#yellow, #pp, #orange{
+    display: none;
+}
+
+div{
+    background-color: green;
+    border-radius: 50% 5% 50% 5% ;
+    width: 20vw;
+    height: 20vw;
+}
+
+section{
+    justify-content: center;
+    display: flex;
+}
+
+/* tablette */
+@media screen and (min-width: 776px) and (max-width: 991px){
+    #vert, #pp, #orange{
+        display: none;
+    }
+        #yellow{
+            display: block;
+            background-color: yellow;
+        }
+        div{
+            border-radius: 50% 5% 50% 5% ;
+            background-color: yellow;
+        }
+    }
+
+/* ordi */
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    #vert, #pp, #yellow{
+        display: none;
+    }
+        #orange{
+            display: block;
+            background-color: rgb(255, 81, 0);
+        }
+        div{
+            border-radius: 50% 50% 50% 50% ;
+            background-color: rgb(255, 81, 0);
+        }
+    }
+
+
+
+/* grand écran */
+@media screen and (min-width: 1200px){
+    #vert, #orange, #yellow{
+        display: none;
+    }
+        #pp{
+            display: block;
+            background-color: rgb(189, 124, 94);
+        }
+        div{
+            border-radius: 50% 50% 50% 50% ;
+            background-color: rgb(189, 124, 94);
+        }
+}

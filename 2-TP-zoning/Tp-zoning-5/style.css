@@ -1,0 +1,58 @@
+body{
+    border: solid;
+    width: 75%;
+    margin: auto;
+}
+
+header{
+    background-color: rgba(0, 87, 201, 0.781);
+    padding: 50px;
+    padding-bottom: 50px;
+}
+
+nav{
+    background-color: rgb(44, 104, 182);
+    padding-top: 30px;
+    border-bottom: 1rem solid;
+    
+}
+
+
+main{
+    margin: 70px ;
+    padding: 1px;
+}
+
+.block{
+    margin-top: -50px ;
+    margin-bottom: 25px;
+    width: 50%;
+    height: 487px;
+}
+
+.blockLeft{
+    float: left;
+}
+.blockRight{
+    float: right;
+}
+
+.colorLight{   
+    background-color: rgb(173, 108, 21);
+}
+
+.colorDark{   
+    background-color: rgb(99, 63, 16);
+}
+
+
+
+footer{
+    background-color: rgba(2, 44, 99, 0.781);
+    padding-bottom: 50px;
+
+}
+
+.clear{
+    clear: both;
+}

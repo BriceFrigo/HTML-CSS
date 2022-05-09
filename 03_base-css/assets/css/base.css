@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+*:hover{
+    transition: all .2s ease 0s;
+}
+html{
+    /* UN SEUL REGLAGE ICI */
+    font-size: 62.5%;
+}
+body{ /* les réglages que l'on veut sur les <p> de la page => on utilise l'héritage */
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem; /* unité relative = 16px (unité absolue) */
+    line-height: 1.6; /* ici on ne met pas d'unité = la hauteur d'interligne sera relative à la font-size ici x1.6*/
+}
+
+a, a:hover, a:visited, a:active{
+    text-decoration: none;
+}
+
+/* ON PASSE AUX CLASSES STANDARDISEES */
+.fl{
+    float: left;
+}
+.fr{
+    float:right;
+}
+.inline-b{
+    display: inline-block;
+}
+.bgi{
+    background-position: center;
+    overflow: hidden;
+}

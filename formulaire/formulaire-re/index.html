@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Re-test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form action="#">
+        <fieldset>
+            <legend>
+                Identité
+            </legend>
+            <label for="nom">Pseudo</label>
+            <input type="text" placeholder="Nom">
+            <br>
+            <label for="password">Mots de passe*</label>
+            <input type="password" placeholder="Mots de passe">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" placeholder="Email">
+            <br>
+            <label for="ville">Ville :</label>
+            <select name="ville" id="">
+                <option value="text">Parie</option>
+                <option value="text">Tokyo</option>
+                <option value="text">Lion</option>
+            </select>
+            <br>
+            <label for="code">Code Postale</label>
+            <input type="text"  id="code" maxlength="5">
+            <fieldset class="color">
+                <label for="pp">Photo</label>
+                <input type="file" id="pp">
+            </fieldset>
+        </fieldset>
+        <fieldset>
+            <legend>Questions</legend>
+
+            <label class="checkbox" for="checkbox">Quelle destination choisissez-vous ?</label>
+
+            <p>
+                <input class="checkbox" type="checkbox" id="jap">
+                <label  for="jap">Japon</label>
+                <input class="checkbox" type="checkbox" id="save">
+                <label  for="checkbox">France</label>
+                <input class="checkbox" type="checkbox" id="save">
+                <label  for="checkbox">Chine</label>
+            </p>
+            <label for="message">Commentaire :</label>
+
+            <textarea id="message" name="message"  required></textarea>
+
+        </fieldset>
+
+        <input type="checkbox" name="checkbox1" id="">
+        <label for="checkbox1">J'accepte les conditions d'utilisation du site.*</label>
+        <button>S'inscrire</button>
+        <button>Annuler</button>
+        </form>
+    </main>
+</body>
+</html>

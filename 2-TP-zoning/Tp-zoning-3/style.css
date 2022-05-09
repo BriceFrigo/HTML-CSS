@@ -1,0 +1,20 @@
+
+.gauche{
+    padding: 114px;
+    margin-bottom: 20px;
+    background-color: rgb(147, 255, 137);
+    padding-bottom: 700px;
+    float: left;
+}
+.milieu{
+    padding: 755px;
+    margin-bottom: 20px;
+    background-color: rgb(49, 105, 44);
+    padding-bottom: 59px;
+    float: right;
+}
+.footer{
+    padding: 40px;
+    background-color: rgb(255, 255, 164);
+    text-align: center;
+}

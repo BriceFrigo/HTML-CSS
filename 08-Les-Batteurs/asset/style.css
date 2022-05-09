@@ -1,0 +1,126 @@
+body{
+    background-color: #1A1A1A;
+    font-family: 'Arvo', serif;
+
+}
+
+#logo{
+    width: 8%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #F9A02C;
+    width: 70%;
+}
+
+h1{
+    font-size: 45px;
+    color: #F9A02C;
+    padding-left: 20px;
+}
+
+h2{
+    font-size: 25px;
+    color: #F9A02C;
+    padding-left: 20px;
+    margin-top: 35px;
+}
+
+header li {
+    margin: 50px;
+    display: inline;
+}
+
+
+header li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.nav-bar{
+    background-color: #110011;
+    width: 70%;
+    float: left;
+
+}
+
+.nav-bar2{
+    background-color: #FFC368;
+    width: 30%;
+    float: right;
+}
+
+#nav{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.border{
+    width: 95%;
+    margin-left: 20px;
+    height: 1px;
+    background-color: #F9A02C;
+}
+
+p{
+    color: white;
+    padding-left: 20px;
+    font-size: 19px;
+    line-height: 1.6;
+}
+
+.marg{
+    padding-left: 66px;
+}
+
+.marg-bt{
+    margin-bottom: 30px;
+}
+
+.marg-video{
+    padding-left: 27PX;
+}
+
+.p2{
+    color: black;
+    font-size: 19px;
+}
+
+.p15{
+    color: black;
+    margin-left: 20px;
+}
+
+main section:last-of-type iframe {
+    padding-bottom: 445px;
+}
+
+.cb{
+    width: 30%;
+    text-align: center;
+    color: #EFEFEF;
+    display: block;
+}
+
+span{
+    width: 20%;
+    display: inline-block;
+
+}
+
+.clear{
+    clear: both;
+}
+
+.espace{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}

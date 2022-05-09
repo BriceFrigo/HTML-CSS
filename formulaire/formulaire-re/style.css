@@ -1,0 +1,42 @@
+body{
+    background: url(img/sneaker_mesh_fabric.png) repeat;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+}
+
+form{
+
+        border-radius: 10px;
+        background-color: rgba(138, 101, 101, 0.3);
+        width: 1100px;
+        padding: 20px;
+        color: #fff;
+
+}
+
+input{
+    border: none;
+    padding-right: 81%;
+    height: 32px;
+    border-radius: 3px;
+    padding-bottom: 10px;
+}
+
+legend{
+    color: black;
+    font-size: 18px;
+}
+label{
+    color: black;
+}
+
+fieldset{
+    border-color: white;
+    border-radius: 5px;
+}
+
+.color{
+     
+    border: black solid 1px;
+}

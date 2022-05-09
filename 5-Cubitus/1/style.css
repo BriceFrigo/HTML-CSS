@@ -1,0 +1,44 @@
+.color{
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    float: left;
+    margin: 2px;
+    border: 2px solid black;
+}
+
+.color2{
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    float: left;
+    margin: 2px;
+    border: 2px solid black;
+}
+.color3{
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    float: left;
+    margin: 2px;
+    border: 2px solid black;
+}
+.color4{
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    margin: 2px;
+    float: left;
+    border: 2px solid black; 
+}
+.clear{
+    clear: both;
+}
+
+.colorsombre{
+    background-color: rgb(12, 95, 143);
+}
+
+.colorclaire{
+    background-color: rgb(14, 168, 73);
+}

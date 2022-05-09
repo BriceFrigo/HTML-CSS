@@ -1,0 +1,66 @@
+body{
+    background-image: url(img/cat-god.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 200px;
+    background-color: #56595e;
+    font-size: 1.4em;
+    width: 50%;
+    margin: auto
+}
+
+h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 4em;
+    font-weight: normal;
+}
+
+h2{
+    font-family: 'Amatic SC', cursive;
+    font-weight: normal;
+    font-size: 2.5em;
+    word-spacing : 25px;
+}
+
+h3{
+    font-size: 1.5em;
+    word-spacing : 10px;
+}
+
+.cat-god{
+    float: right;
+}
+
+.center{
+    text-align: center;
+}
+
+.color{
+    color: white;
+}
+
+
+p{
+    text-indent : 25px;
+    font-size: 1em;
+    line-height : 50px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.naru{
+    background-image: url(img/maru.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.bootom0{
+    margin-bottom: 0px;
+}
+
+.nione{
+    background-image: url(img/nyan-cat.gif);
+    background-repeat: no-repeat;
+    height: 325px;
+
+}

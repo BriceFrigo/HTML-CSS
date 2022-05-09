@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form action="#">
+        <fieldset>
+            <legend>Identité</legend>
+
+            <label for="nom">Pseudo*</label>
+            <input type="text" id="nom" placeholder="nom">
+
+            <label for="mdt">Mots de passe*</label>
+            <input type="password" placeholder="Mots de passe" id="mdt">
+
+            <label for="email">Email</label>
+            <input type="email" placeholder="email" id="email">
+
+            <label for="pays">Ville:</label>
+            <br>
+            <select name="pays" id="pays">
+                <option value="">japon</option>
+                <option value="">france</option>
+            </select>
+
+            <label for="code">Code Postale</label>
+            <input type="text"  id="code" maxlength="5">
+            <fieldset class="fieldset2">
+                <label for="pp">Photo</label>
+                <input type="file" id="pp">
+            </fieldset>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Questions</legend>
+
+            <label class="checkbox" for="checkbox">Quelle destination choisissez-vous ?</label>
+            <br>
+            <p>
+            <input class="checkbox" type="checkbox" id="jap">
+            <label  for="jap">Japon</label>
+            <input class="checkbox" type="checkbox" id="save">
+            <label  for="checkbox">France</label>
+            <input class="checkbox" type="checkbox" id="save">
+            <label  for="checkbox">Chine</label>
+            </p>
+            <br>
+            <label for="message">Commentaire :</label>
+            <br>
+            <textarea id="message" name="message"  required></textarea>
+
+        </fieldset>
+        <input class="checkbox" type="checkbox" id="save">
+        <label  for="checkbox">J'accepte les conditions d'utilisation du site.*</label>
+        <br>
+        <button>S'inscrire</button>
+        <br><br>
+        <button class="boutton1">Annuler</button>
+    </form>
+
+</body>
+</html>
